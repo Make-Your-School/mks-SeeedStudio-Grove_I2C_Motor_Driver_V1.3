@@ -7,7 +7,7 @@ tags:
     - "motortreiber"
     - "motor"
     - "i2c"
-coverImage: "70_motortreiber.jpg"
+coverImage: "70_motortreiber.png"
 material_number: "70"
 material_type: "output"
 material_short_descr: "Seeed Studio Grove – I2C Motor Driver V1.3"
