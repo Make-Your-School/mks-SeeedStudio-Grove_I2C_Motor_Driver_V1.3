@@ -20,6 +20,9 @@ repo_part: "Grove_I2C_Motor_Driver_V1.3"
 product_url: "http://wiki.seeedstudio.com/Grove-I2C_Motor_Driver_V1.3/"
 clone_url: "https://github.com/Make-Your-School/mks-SeeedStudio-Grove_I2C_Motor_Driver_V1.3.git"
 embedded_example_file: "examples/Grove_I2C_Motor_Driver_V1.3_minimal/Grove_I2C_Motor_Driver_V1.3_minimal.ino"
+title: 'Motortreiber'
+status: 'active'
+difficulty: 'recommend'
 ---
 
 
