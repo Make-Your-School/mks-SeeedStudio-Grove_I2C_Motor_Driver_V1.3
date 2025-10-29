@@ -30,9 +30,16 @@ mks Nr 70
 ![Motortreiber](./70_motortreiber.png)
 
 ## Beschreibung
-Im Allgemeinen reichen die Stromstärken, die ein Mikrocontroller liefern kann, nicht aus, um einen Motor direkt anzusteuern. Deshalb gibt es unterschiedliche Arten von sogenannten Motortreibern. Diese werden eingangsseitig am Mikrocontroller und ausgangsseitig am Motor angeschlossen. Sie übersetzen die Kommandos des Mikrocontrollers in die vom Motor benötigten Stromstärken. Gleichzeitig wird der Mikrocontroller von etwaigen Kurzschlüssen oder Überspannungen, die seitens des Motors entstehen könnten, geschützt.
+Im Allgemeinen reichen die Stromstärken, die ein Mikrocontroller liefern kann, nicht aus, um einen Motor direkt anzusteuern. 
+Deshalb gibt es unterschiedliche Arten von sogenannten Motortreibern. 
+Diese werden eingangsseitig am Mikrocontroller und ausgangsseitig am Motor angeschlossen. 
+Sie übersetzen die Kommandos des Mikrocontrollers in die vom Motor benötigten Stromstärken. 
+Gleichzeitig wird der Mikrocontroller von etwaigen Kurzschlüssen oder Überspannungen, die seitens des Motors entstehen könnten, geschützt.
 
-Die vorliegende Ausführung kann einen vieradrigen Schrittmotoroder bis zu zwei Gleichstrommotorenansteuern. Falls zwei Gleichstrommotoren angeschlossen werden, können diese unabhängig voneinander sowohl bezüglich der Richtung und Geschwindigkeit gesteuert werden.
+<!-- more_details -->
+
+Die vorliegende Ausführung kann einen vieradrigen Schrittmotoroder oder zwei Gleichstrommotorenansteuern. 
+Falls zwei Gleichstrommotoren angeschlossen werden, können diese unabhängig voneinander sowohl bezüglich der Richtung und Geschwindigkeit gesteuert werden.
 
 Der Motortreiber wird direkt oder mithilfe des Grove Shields an einen Arduino oder Raspberry Pi über die serielle Schnittstelle I2C  angeschlossen. Der Treiber benötigt dabei eine separate Stromversorgung zwischen 6V und 15V.
 
