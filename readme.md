@@ -52,8 +52,7 @@ So kann der Roboter in alle Richtungen navigiert werden.
 Alle weiteren Hintergrundinformationen sowie ein Beispielaufbau und alle notwendigen Programmbibliotheken sind auf dem offiziellen Wiki (bisher nur in englischer Sprache) von Seeed Studio zusammengefasst. 
 Zusätzlich findet man über alle gängigen Suchmaschinen durch die Eingabe der genauen Komponenten-Bezeichnung entsprechende Projektbeispiele und Tutorials.
 
-> [!important]
-> **Wichtige Hinweise:**
+> [!wichtig]
 > Programmierung und RESET: 
 > Beim Heraufladen eines Programms auf einen Mikrocontroller über einen Computeranschluss („Upload-Vorgang“) wird der Mikrocontroller automatisch *zurückgesetzt*, damit das neu geladene Programm komplett von vorne ablaufen kann. 
 > Der hier vorliegende Motortreiber wird meist zusätzliche mit einer externen Stromquelle betrieben, zum Beispiel mit einem Netzteil oder einem Akku. 
